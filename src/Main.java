@@ -6,6 +6,15 @@ public class Main {
 
      /*change this to hello universe */
     private static void sayHello(){
-        System.out.println("Hello World!");
+        String newString;
+
+        System.out.println("Hello universe!");
+        newString = bugyMethod("Awesome");
+        System.out.println(newString);
+    }
+
+    public static String bugyMethod(String input){
+        return input + " Sauce";
+
     }
 }
