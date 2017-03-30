@@ -13,8 +13,8 @@ public class Main {
         System.out.println(newString);
     }
 
-    public static void bugyMethod(String input){
-        input  = input + "Sauce";
+    public static String bugyMethod(String input){
+        return input + " Sauce";
 
     }
 }
